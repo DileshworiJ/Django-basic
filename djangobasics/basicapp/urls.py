@@ -8,3 +8,4 @@ urlpatterns = [
     path('<question_id>/results/', views.results, name='results'),
     path('<question_id>/vote/', views.vote, name='vote'),
 ]
+app_name = 'basicapp'  #either here or in urls of the main project
